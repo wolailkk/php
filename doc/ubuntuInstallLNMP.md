@@ -76,7 +76,9 @@ $ sudo update-alternatives --set php /usr/bin/php7.1
 ./configure: error: SSL modules require the OpenSSL library. 
 ```
 ####常用命令
-启动nginx：
+启动nginx
+
+：
 ```$ sudo /usr/local/nginx/sbin/nginx -c /usr/local/nginx/conf/nginx.conf
 # 注意：-c 指定配置文件的路径，不加的话，nginx会自动加载默认路径的配置文件，可以通过 -h查看帮助命令。
 $ sudo /usr/local/nginx/sbin/nginx -t #检查配置文件
